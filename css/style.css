@@ -1,3 +1,4 @@
+/*Estilo geral*/
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     align-items: center;
 }
 
+/*Container central*/
 .container {
     display: flex;
     justify-content: center;
@@ -16,6 +18,7 @@ body {
     width: 100%;
 }
 
+/*Caixa de login*/
 .login-box {
     background: #fff;
     padding: 30px;
@@ -25,11 +28,13 @@ body {
     text-align: center;
 }
 
+/*Título*/
 .login-box h2 {
     margin-bottom: 20px;
     color: #333;
 }
 
+/*Grupo de input*/
 .input-group {
     text-align: left;
     margin-bottom: 15px;
@@ -51,11 +56,13 @@ body {
     transition: 0.3s;
 }
 
+/*Efeito no input*/
 .input-group input:focus {
     border-color: #2575fc;
     box-shadow: 0px 0px 5px rgba(37, 117, 252, 0.5);
 }
 
+/*Botão*/
 button {
     width: 100%;
     padding: 12px;
@@ -68,6 +75,7 @@ button {
     transition: 0.3s;
 }
 
+/*Efeito hover no botão*/
 button:hover {
     background: #6a11cb;
 }
